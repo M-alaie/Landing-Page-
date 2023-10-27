@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="font-vazir">
+    <!-- nav  -->
+    <nav
+      class="flex md:flex-row flex-col justify-start md:justify-between  border-b-2 static my-1 pb-3 bg-zinc-50 w-full md:h-[5rem] shadow-md shadow-gray-500"
+    >
+      <div
+        class="flex flex-row justify-between items-baseline w-full md:w-[24rem]"
+      >
+        <div class="flex items-center space-x-5 py-5">
+          <!-- icons -->
+          <svg
+            class="h-8 fill-current mr-3"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512.005 512.005"
+          >
+            <rect
+              fill="#2a2a31"
+              x="16.539"
+              y="425.626"
+              width="479.767"
+              height="50.502"
+              transform="matrix(1,0,0,1,0,0)"
+            ></rect>
+            <path
+              class="plane-take-off"
+              d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
+            ></path>
+          </svg>
+          <h3 class="font-bold text-3xl lg:text-4xl pr-3 mr-3 text-slate-900">
+            وبسایت فروشگاهی
+          </h3>
+        </div>
+        <!-- menu button -->
+        <button
+          class="md:hidden px-3 hover:text-gray-600 text-red-600 hover:scale-105 ease-in-out duration-75 delay-75"
+          id="toggle-nav"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden md:flex md:p-4 items-baseline" id="list-nav">
+        <div class="flex flex-col md:flex-row justify-center items-baseline">
+          <ul class="px-3 flex flex-col md:flex-row md:items-baseline py-4 md:py-0">
+            <a
+              href="#"
+              class="px-4 font-extrabold my-3 text-xl text-black tracking-wide"
+              >فعال</a
+            >
+
+            <a href="#" class="px-4  text-base font-bold my-3 tracking-wide"
+              >لینک</a
+            >
+
+            <a href="#" class="px-4 text-base font-bold my-3 tracking-wide"
+              >لینک</a
+            >
+          </ul>
+          <a
+            href="#"
+          class="md:mr-9 mr-4 bg-gradient-to-r opacity-[.8] font-bold from-pink-500 to-amber-300 text-white p-4 px-8 rounded-full hover:underline duration-300 hover:scale-105 inline-block ease-in-out"
+            >لینک فعال</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <script src="./js//script.js"></script>
+  </body>
+</html>
