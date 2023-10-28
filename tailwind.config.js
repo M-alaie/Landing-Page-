@@ -5,6 +5,14 @@ module.exports = {
     extend: {
       fontFamily:{
         vazir:['vazir']
+      },
+      colors:{
+        amber:{
+          350:"#daad51"
+        },
+        pink:{
+          750:"#d53569"
+        }
       }
     },
   },
